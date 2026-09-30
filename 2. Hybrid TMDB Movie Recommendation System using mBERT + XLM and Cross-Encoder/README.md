@@ -11,6 +11,8 @@ The system uses [full_tmdb_movies_dataset](https://huggingface.co/datasets/ada-d
 - **Re-ranking:** a cross-encoder (`ms-marco-MiniLM-L-6-v2`) compares the overview of each candidate with that of the selected movie.
 - **Hybrid scoring:** the semantic score is blended with Jaccard similarity across genres, keywords, and production companies to produce the final ranking.
 
+![testing](https://drive.google.com/uc?export=view&id=19_8hEpLF_aKIkzZCD_Wq8yvlfHrH7tsT)
+
 **Hybrid Embeddings**
 
 The precomputed embeddings (`movie_embeddings_Hybrid_mBERT_XLM.npy`) are too large for GitHub and are hosted on Google Drive:
