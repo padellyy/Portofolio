@@ -5,7 +5,7 @@ A data science and analytics project focused on predicting customer churn. Key h
 * **Business Intelligence Dashboard:** Developed an interactive BI dashboard designed to answer specific business problems, track essential company KPIs, and deliver actionable insights for stakeholders.
 
 ### 2. Hybrid TMDB Movie Recommendation System using mBERT + XLM-RoBERTa and Cross-Encoder
-A content-based movie recommender built on the TMDB dataset. It retrieves candidates with hybrid mBERT + XLM-RoBERTa (small) and ranks them with a cross-encoder.
+A content-based movie recommender built on the TMDB dataset. It retrieves candidates with hybrid transformer embeddings (mBERT + XLM-RoBERTa small) and ranks them with a transformer-based cross-encoder, deployed as an interactive web app using Streamlit.
 
 ## 📫 Let's Connect
 * **Email:** mfadlimannguluang@gmail.com
